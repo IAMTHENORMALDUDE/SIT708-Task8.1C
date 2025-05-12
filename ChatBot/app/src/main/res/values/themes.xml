@@ -2,8 +2,17 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.ChatBot" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#4285F4</item>
+        <item name="colorPrimaryDark">#3367D6</item>
+        <item name="colorAccent">#F4B400</item>
     </style>
 
     <style name="Theme.ChatBot" parent="Base.Theme.ChatBot" />
+    
+    <!-- Theme with no action bar for splash screen -->
+    <style name="Theme.ChatBot.NoActionBar" parent="Theme.ChatBot">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
 </resources>

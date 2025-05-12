@@ -10,5 +10,5 @@
     <string name="send_message">Send message</string>
     <string name="error_empty_username">Username cannot be empty</string>
     <string name="error_network">Network error. Please try again.</string>
-    <string name="welcome_message">Hello! I'm Llama 2, how can I help you today?</string>
+    <string name="welcome_message">Hello! I\'m Llama 2, how can I help you today?</string>
 </resources>
